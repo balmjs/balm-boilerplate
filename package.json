@@ -1,0 +1,19 @@
+{
+  "name": "balm-boilerplate",
+  "version": "1.0.0",
+  "description": "The balm boilerplate",
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmjs/balm-boilerplate.git"
+  },
+  "author": "Elf-mousE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balmjs/balm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/balmjs/balm-boilerplate#readme"
+}

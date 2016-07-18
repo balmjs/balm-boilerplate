@@ -8,11 +8,19 @@ balm.config = {
   paths: {
     source: {
       css: 'sass',
-      js: 'scripts'
+      js: 'scripts',
+      img: 'images'
     }
   },
   styles: {
     ext: 'scss'
+  },
+  scripts: {
+    main: './src/scripts/main.js'
+  },
+  sprites: {
+    image: ['icon'],
+    svg: ['icon']
   }
 };
 

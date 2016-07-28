@@ -1,5 +1,20 @@
 @import '_reset';
+@import 'sprites/_icon';
+@import 'svg/_icon';
 
 body {
   color: green;
+}
+
+.icon-list {
+  .icon {
+    display: inline-block;
+  }
+  .sprites(@icon-spritesheet-sprites);
+}
+
+.svg-list {
+  li {
+    display: inline-block;
+  }
 }

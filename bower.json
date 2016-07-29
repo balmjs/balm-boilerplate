@@ -3,9 +3,25 @@
   "private": true,
   "dependencies": {
     "normalize-css": "^4.2.0",
-    "bourbon": "^4.2.7",
-    "neat": "^1.8.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.6.3",
     "jquery": "^3.1.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "fonts/*",
+        "less/font-awesome.less",
+        "scss/font-awesome.scss"
+      ]
+    }
   }
 }

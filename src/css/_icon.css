@@ -1,0 +1,14 @@
+@import 'sprites/icon';
+@import 'svg/icon';
+
+.icon-list {
+  .icon {
+    display: inline-block;
+  }
+}
+
+.svg-list {
+  li {
+    display: inline-block;
+  }
+}

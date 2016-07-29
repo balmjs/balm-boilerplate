@@ -1,19 +1,6 @@
-@import 'reset';
-@import 'sprites/icon';
-@import 'svg/icon';
+@import 'global/index';
+@import 'icon';
 
 body {
   color: blue;
-}
-
-.icon-list {
-  .icon {
-    display: inline-block;
-  }
-}
-
-.svg-list {
-  li {
-    display: inline-block;
-  }
 }

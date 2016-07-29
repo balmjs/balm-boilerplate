@@ -16,7 +16,11 @@ balm.config = {
     ext: 'scss'
   },
   scripts: {
-    main: './src/scripts/main.js'
+    entry: {
+      common: ['jquery'],
+      main: './src/scripts/main.js'
+    },
+    vendors: ['common']
   },
   sprites: {
     image: ['icon'],

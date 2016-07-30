@@ -3,6 +3,7 @@
 ```sh
 # 安装
 npm install --save-dev balm gulp
+bower install
 
 # 开发
 npm run dev

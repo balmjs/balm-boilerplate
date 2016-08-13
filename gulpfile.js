@@ -8,7 +8,8 @@ balm.config = {
     source: {
       css: 'sass',
       js: 'scripts',
-      img: 'images'
+      img: 'images',
+      font: 'fonts'
     }
   },
   styles: {
@@ -24,7 +25,15 @@ balm.config = {
   sprites: {
     image: ['icon'],
     svg: ['icon']
-  }
+  },
+  cache: true
 };
 
-balm.go();
+balm.go(function(mix) {
+  // mix.remove('/path/to/project/public');
+  // mix.publish(null, '/path/to/project/public');
+  // mix.publish('index.html', '/path/to/project/views', {
+  //   suffix: '.blade',
+  //   extname: '.php'
+  // });
+});

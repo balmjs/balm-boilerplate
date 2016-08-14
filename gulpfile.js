@@ -26,14 +26,18 @@ balm.config = {
     image: ['icon'],
     svg: ['icon']
   },
-  cache: true
+  cache: true,
+  assets: {
+    root: 'assets',
+    publicPath: 'public',
+    subDir: ''
+  }
 };
 
 balm.go(function(mix) {
-  // mix.remove('/path/to/project/public');
-  // mix.publish(null, '/path/to/project/public');
-  // mix.publish('index.html', '/path/to/project/views', {
-  //   suffix: '.blade',
-  //   extname: '.php'
-  // });
+  if (balm.config.production) {
+    // mix.remove('./assets');
+    mix.publish();
+    mix.publish('index.html', 'public');
+  }
 });

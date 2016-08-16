@@ -36,7 +36,7 @@ balm.config = {
 
 balm.go(function(mix) {
   if (balm.config.production) {
-    // mix.remove('./assets');
+    mix.remove('./assets/public');
     mix.publish();
     mix.publish('index.html', 'public');
   }

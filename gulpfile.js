@@ -36,6 +36,7 @@ balm.config = {
 
 balm.go(function(mix) {
   if (balm.config.production) {
+    // publish assets to your project
     mix.publish();
     mix.publish('index.html', 'public');
   }

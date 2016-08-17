@@ -2,5 +2,6 @@
 @import 'icon';
 
 body {
-  color: red;
+  color: $color;
+  background: url('../images/oops.png') repeat-y center;
 }

@@ -1,0 +1,7 @@
+.foo {
+  color: gray(85);
+}
+
+.bar {
+  color: gray(10%, 50%);
+}

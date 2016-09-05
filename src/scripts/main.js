@@ -3,5 +3,7 @@
 // common.sayHello('World');
 
 // ES6
-import { sayHello } from './common';
+import {
+  sayHello
+} from './common';
 sayHello('World');

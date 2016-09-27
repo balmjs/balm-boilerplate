@@ -24,13 +24,12 @@ balm.config = {
   },
   sprites: {
     image: ['icon'],
-    svg: ['icon']
+    svg: ['svg-icon']
   },
   cache: true,
   assets: {
     root: 'assets',
-    publicPath: 'public',
-    subDir: ''
+    publicPath: 'public'
   }
 };
 

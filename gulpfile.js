@@ -18,9 +18,10 @@ balm.config = {
   scripts: {
     entry: {
       common: ['jquery'],
+      util: ['lodash'],
       main: './src/scripts/main.js'
     },
-    vendors: ['common']
+    vendors: ['common', 'util']
   },
   sprites: {
     image: ['icon'],

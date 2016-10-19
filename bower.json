@@ -11,18 +11,25 @@
     "normalize-css": "^5.0.0"
   },
   "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/js/bootstrap.js",
+        "fonts/*"
+      ]
+    },
     "bootstrap-sass": {
       "main": [
         "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
+        "assets/javascripts/bootstrap.js",
+        "assets/fonts/bootstrap/*"
       ]
     },
     "font-awesome": {
       "main": [
-        "fonts/*",
         "less/font-awesome.less",
-        "scss/font-awesome.scss"
+        "scss/font-awesome.scss",
+        "fonts/*"
       ]
     }
   }

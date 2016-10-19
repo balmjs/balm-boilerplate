@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The balm boilerplate",
   "scripts": {
+    "preinstall": "bower install",
     "dev": "gulp",
     "prod": "gulp --production"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/balmjs/balm-boilerplate/issues"
   },
-  "homepage": "https://github.com/balmjs/balm-boilerplate#readme"
+  "homepage": "https://github.com/balmjs/balm-boilerplate#readme",
+  "devDependencies": {
+    "balm": "^0.5.1",
+    "gulp": "^3.9.1"
+  }
 }

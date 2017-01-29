@@ -19,7 +19,7 @@ balm.config = {
     entry: {
       common: ['jquery'],
       util: ['lodash'],
-      main: './src/scripts/main.js'
+      main: './src/scripts/main'
     },
     vendors: ['common', 'util']
   },

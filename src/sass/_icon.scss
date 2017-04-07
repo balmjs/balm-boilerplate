@@ -3,14 +3,5 @@
 @import 'svg/svg-icon';
 
 .icon-list {
-  .icon {
-    display: inline-block;
-  }
   @include sprites($icon-spritesheet-sprites);
-}
-
-.svg-list {
-  li {
-    display: inline-block;
-  }
 }

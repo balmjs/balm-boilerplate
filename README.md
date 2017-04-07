@@ -1,15 +1,14 @@
-# BalmJS boilerplate
+# BalmJS demo - boilerplate
 
 ```sh
-# 安装
-npm install
-# or
 yarn install
+# OR
+npm install
 
-# 开发
+# For development
 npm run dev
 
-# 打包
+# For production
 npm run prod
 ```
 

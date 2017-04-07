@@ -1,8 +1,0 @@
-div {
-  display: initial; /* inline */
-}
-
-// Killer feature:
-div {
-  all: initial; /* use initial for ALL PROPERTIES in one shot */
-}

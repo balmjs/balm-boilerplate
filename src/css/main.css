@@ -1,7 +1,2 @@
 @import 'global/index';
 @import 'icon';
-
-body {
-  color: $color;
-  background: url('../images/oops.png') repeat-y center;
-}

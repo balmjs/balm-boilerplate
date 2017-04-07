@@ -6,26 +6,27 @@ balm.config = {
   },
   paths: {
     source: {
-      css: 'sass',
+      css: 'sass', // 'sass', 'less' or 'css'(postcss)
       js: 'scripts',
       img: 'images',
       font: 'fonts'
     }
   },
   styles: {
-    ext: 'scss'
+    ext: 'scss' // 'scss', 'less' or 'css'(postcss)
   },
   scripts: {
     entry: {
-      common: ['jquery'],
-      util: ['lodash'],
+      mylib: ['jquery'],
+      myutil: ['lodash'],
       main: './src/scripts/main'
     },
-    vendors: ['common', 'util']
+    vendors: ['mylib', 'myutil']
   },
   sprites: {
     image: ['icon'],
-    svg: ['svg-icon']
+    svg: ['svg-icon'],
+    padding: 1
   },
   cache: true,
   assets: {

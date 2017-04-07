@@ -1,7 +1,0 @@
-a {
-  color: color(red alpha(-10%));
-}
-
-a:hover {
-  color: color(red blackness(80%));
-}

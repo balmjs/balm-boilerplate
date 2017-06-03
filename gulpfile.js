@@ -20,13 +20,11 @@ balm.config = {
       mylib: ['jquery'],
       myutil: ['lodash'],
       main: './src/scripts/main'
-    },
-    vendors: ['mylib', 'myutil']
+    }
   },
   sprites: {
     image: ['icon'],
-    svg: ['svg-icon'],
-    padding: 1
+    svg: ['svg-icon']
   },
   cache: true,
   assets: {

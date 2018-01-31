@@ -1,9 +1,9 @@
 # BalmJS demo - boilerplate
 
 ```sh
-yarn install
-# OR
 npm install
+# OR
+yarn install && bower install
 
 # For development
 npm run dev

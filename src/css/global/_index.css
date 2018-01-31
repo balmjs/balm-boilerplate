@@ -1,4 +1,4 @@
-@import 'vendor';
-@import 'var';
-@import 'reset';
-@import 'layout';
+@import '_var.css';
+@import '_vendor.css';
+@import '_reset.css';
+@import '_layout.css';

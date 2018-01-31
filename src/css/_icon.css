@@ -1,15 +1,15 @@
-// automatic generation from balm
-@import 'sprites/icon';
-@import 'svg/svg-icon';
+/* automatic generation from balm */
+@import 'sprites/_icon.css';
+@import 'svg/_svg-icon.css';
 
 .icon-list {
-  .icon {
+  & .icon {
     display: inline-block;
   }
 }
 
 .svg-list {
-  li {
+  & li {
     display: inline-block;
   }
 }

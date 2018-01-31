@@ -1,5 +1,5 @@
 body {
-  color: $color;
+  color: var(--primaryColor);
   background: url('../images/oops.png') repeat-y top right;
 }
 
@@ -7,17 +7,17 @@ header {
   display: flex;
   margin-bottom: 10px;
   color: black;
-  > div {
+  & > div {
     order: 2;
   }
-  strong {
-    color: $color;
+  & strong {
+    color: var(--primaryColor);
   }
-  p {
+  & p {
     font-size: 16px;
     font-style: italic;
   }
-  img {
+  & img {
     width: 100px;
     height: 100px;
     margin: 0 20px;
@@ -30,22 +30,22 @@ header {
   margin: 0;
   padding: 0;
   border: 1px solid #ccc;
-  section,
-  ul {
+  & section,
+  & ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
-  section {
+  & section {
     margin-bottom: 10px;
   }
-  ul {
+  & ul {
     color: black;
   }
-  li {
+  & li {
     margin-right: 10px;
   }
-  i, q {
+  & i, & q {
     vertical-align: middle;
   }
 }

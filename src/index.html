@@ -5,15 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>balm boilerplate</title>
+
   <!-- build:css css/vendor.css -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
-  <!-- endbower -->
+  <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
   <!-- endbuild -->
+
   <link rel="stylesheet" href="css/main.css">
-  <!-- build:js js/vendor/modernizr.js -->
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
 </head>
 
 <body>
@@ -22,8 +19,9 @@
         <h1>Hello <strong>BalmJS</strong></h1>
         <p>A Flexible Front-End Workflow</p>
     </div>
-    <img src="images/unicorn.png" alt="">
+    <img src="%PUBLIC_URL%/images/unicorn.png" alt="">
   </header>
+
   <div class="container">
       <!-- image sprites -->
       <section>
@@ -39,6 +37,7 @@
           <li class="icon icon-styling"></li>
         </ul>
       </section>
+
       <!-- icon font -->
       <section>
         <h2>Icon font</h2>
@@ -47,6 +46,7 @@
           <li><i class="glyphicon glyphicon-asterisk"></i><q>Bootstrap Icon</q></li>
         </ul>
       </section>
+
       <!-- svg sprites -->
       <section>
         <h2>SVG sprites</h2>
@@ -62,11 +62,15 @@
         </ul>
       </section>
   </div>
-  <!-- your cdn -->
+
+  <!-- Your cdn -->
   <!-- <script src="https://cdn.com/path/to/js/lib.js"></script> -->
-  <script src="js/vendor/mylib.js"></script>
-  <script src="js/vendor/myutil.js"></script>
-  <script src="js/main.js"></script>
+
+  <!-- Your custom vendors -->
+  <script src="%PUBLIC_URL%/scripts/vendor/mylib.js"></script>
+  <script src="%PUBLIC_URL%/scripts/vendor/myutil.js"></script>
+
+  <script src="%PUBLIC_URL%/scripts/main.js"></script>
 </body>
 
 </html>

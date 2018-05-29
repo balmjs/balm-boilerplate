@@ -17,8 +17,8 @@
     "url": "https://github.com/balmjs/balm-boilerplate/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "balm": "^0.16.1",
+    "babel-eslint": "^8.2.3",
+    "balm": "^0.22.0",
     "gulp": "^3.9.1"
   }
 }

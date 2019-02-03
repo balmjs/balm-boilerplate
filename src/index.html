@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>balm boilerplate</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>balm boilerplate</title>
+    <!-- build:css css/vendor.css -->
+    <link
+      rel="stylesheet"
+      href="/bower_components/normalize-css/normalize.css"
+    />
+    <!-- endbuild -->
 
-  <!-- build:css css/vendor.css -->
-  <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-  <!-- endbuild -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <header>
-    <div>
+  <body>
+    <header>
+      <div>
         <h1>Hello <strong>BalmJS</strong></h1>
         <p>A Flexible Front-End Workflow</p>
-    </div>
-    <img src="%PUBLIC_URL%/images/unicorn.png" alt="">
-  </header>
+      </div>
+      <img src="%PUBLIC_URL%/images/unicorn.png" alt="" />
+    </header>
 
-  <div class="container">
+    <div class="container">
       <!-- image sprites -->
       <section>
         <h2>Image sprites</h2>
@@ -43,12 +45,14 @@
         <h2>Icon font</h2>
         <ul>
           <li><i class="fa fa-smile-o fa-2x"></i><q>Font Awesome</q></li>
-          <li><i class="glyphicon glyphicon-asterisk"></i><q>Bootstrap Icon</q></li>
+          <li>
+            <i class="glyphicon glyphicon-asterisk"></i><q>Bootstrap Icon</q>
+          </li>
         </ul>
       </section>
 
       <!-- svg sprites -->
-      <section>
+      <!-- <section>
         <h2>SVG sprites</h2>
         <ul class="svg-list">
           <li class="svg-3d_effects svg-3d_effects-dims"></li>
@@ -60,17 +64,16 @@
           <li class="svg-semantics svg-semantics-dims"></li>
           <li class="svg-css3_styling svg-css3_styling-dims"></li>
         </ul>
-      </section>
-  </div>
+      </section> -->
+    </div>
 
-  <!-- Your cdn -->
-  <!-- <script src="https://cdn.com/path/to/js/lib.js"></script> -->
+    <!-- Your cdn -->
+    <!-- <script src="https://cdn.com/path/to/js/lib.js"></script> -->
 
-  <!-- Your custom vendors -->
-  <script src="%PUBLIC_URL%/scripts/vendor/mylib.js"></script>
-  <script src="%PUBLIC_URL%/scripts/vendor/myutil.js"></script>
+    <!-- Your custom vendors -->
+    <script src="%PUBLIC_URL%/scripts/vendor/mylib.js"></script>
+    <script src="%PUBLIC_URL%/scripts/vendor/myutil.js"></script>
 
-  <script src="%PUBLIC_URL%/scripts/main.js"></script>
-</body>
-
+    <script src="%PUBLIC_URL%/scripts/main.js"></script>
+  </body>
 </html>

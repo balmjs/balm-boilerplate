@@ -1,4 +1,4 @@
-var balm = require('balm');
+const balm = require('balm');
 
 balm.config = {
   roots: {
@@ -23,8 +23,7 @@ balm.config = {
     }
   },
   sprites: {
-    image: ['icon'],
-    svg: ['svg-icon']
+    image: ['icon']
   },
   cache: true,
   assets: {
@@ -33,10 +32,13 @@ balm.config = {
   }
 };
 
-balm.go(function(mix) {
+balm.go(mix => {
   if (balm.config.production) {
     // publish assets to your remote project
     mix.publish();
     mix.publish('index.html', 'public');
+  } else {
+    mix.copy('bower_components/bootstrap/fonts/*', 'src/fonts');
+    mix.copy('bower_components/font-awesome/fonts/*', 'src/fonts');
   }
 });

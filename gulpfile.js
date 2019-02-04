@@ -33,7 +33,7 @@ balm.config = {
 };
 
 balm.go(mix => {
-  if (balm.config.production) {
+  if (balm.config.isProd) {
     // publish assets to your remote project
     mix.publish();
     mix.publish('index.html', 'public');

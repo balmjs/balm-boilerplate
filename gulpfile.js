@@ -28,7 +28,7 @@ balm.config = {
   cache: true,
   assets: {
     root: 'assets',
-    publicPath: 'public'
+    mainDir: 'public'
   }
 };
 

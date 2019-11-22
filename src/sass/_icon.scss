@@ -1,7 +1,0 @@
-// automatic generation from balm
-@import 'sprites/icon';
-@import 'svg/svg-icon';
-
-.icon-list {
-  @include sprites($icon-spritesheet-sprites);
-}

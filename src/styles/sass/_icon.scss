@@ -1,0 +1,6 @@
+// automatic generation from balm
+@import '../sprites/_icons.scss';
+
+.icon-list {
+  @include sprites($icons-spritesheet-sprites);
+}

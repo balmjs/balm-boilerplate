@@ -1,6 +1,6 @@
 {
   "name": "balm-demo-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The balm boilerplate",
   "scripts": {
     "preinstall": "bower install",
@@ -17,8 +17,8 @@
     "url": "https://github.com/balmjs/balm-boilerplate/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "balm": "^1.5.1",
+    "babel-eslint": "^10.0.3",
+    "balm": "^2.0.4",
     "gulp": "^4.0.2"
   }
 }

@@ -4,7 +4,6 @@ bower_components
 dist
 assets
 src/**/sprites
-src/**/svg
 src/fonts/FontAwesome*
 src/fonts/fontawesome-*
 src/fonts/glyphicons-*

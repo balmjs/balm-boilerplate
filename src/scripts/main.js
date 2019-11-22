@@ -5,7 +5,5 @@
 
 // ES6
 import './util';
-import {
-  sayHello
-} from './common';
-sayHello('World');
+import { sayHello } from './common';
+sayHello('BalmJS');

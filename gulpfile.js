@@ -1,19 +1,9 @@
 const balm = require('balm');
 
 balm.config = {
-  roots: {
-    source: 'src'
-  },
-  paths: {
-    source: {
-      css: 'sass', // 'sass', 'less' or 'css'(postcss)
-      js: 'scripts',
-      img: 'images',
-      font: 'fonts'
-    }
-  },
   styles: {
-    ext: 'scss' // 'scss', 'less' or 'css'(postcss)
+    extname: 'scss', // css,scss,less
+    sprites: ['icons']
   },
   scripts: {
     entry: {
@@ -22,18 +12,13 @@ balm.config = {
       main: './src/scripts/main.js'
     }
   },
-  sprites: {
-    image: ['icon']
-  },
-  cache: true,
   assets: {
-    root: 'assets',
-    mainDir: 'public'
+    cache: true
   }
 };
 
 balm.go(mix => {
-  if (balm.config.isProd) {
+  if (mix.env.isProd) {
     // publish assets to your remote project
     mix.publish();
     mix.publish('index.html', 'public');

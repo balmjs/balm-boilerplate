@@ -1,0 +1,8 @@
+/* automatic generation from balm */
+@import '../sprites/_icons.css';
+
+.icon-list {
+  & .icon {
+    display: inline-block;
+  }
+}

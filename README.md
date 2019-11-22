@@ -1,15 +1,27 @@
 # BalmJS demo - boilerplate
 
+## Installing Balm
+
 ```sh
-npm install
+yarn install
 # OR
-yarn install && bower install
-
-# For development
-npm run dev
-
-# For production
-npm run prod
+npm install
 ```
 
-__enjoy it__
+## :ghost: Enjoy
+
+For development
+
+```sh
+yarn run dev
+# OR
+npm run dev
+```
+
+For production
+
+```sh
+yarn run prod
+# OR
+npm run prod
+```

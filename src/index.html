@@ -3,43 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>balm boilerplate</title>
-
+    <title>Hello BalmJS - boilerplate</title>
     <!-- build:css css/vendor.css -->
-    <link
-      rel="stylesheet"
-      href="/bower_components/normalize-css/normalize.css"
-    />
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <!-- endbuild -->
-
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles/main.css" />
   </head>
 
   <body>
     <header>
-      <div>
-        <h1>Hello <strong>BalmJS</strong></h1>
+      <div class="flex-center full-height">
+        <h1>Hello <a href="https://balmjs.com/">BalmJS</a></h1>
         <p>A Flexible Front-End Workflow</p>
       </div>
       <img src="%PUBLIC_URL%/images/unicorn.png" alt="" />
     </header>
-
     <div class="container">
       <!-- image sprites -->
       <section>
-        <h2>Image sprites</h2>
+        <h2>CSS sprites</h2>
         <ul class="icon-list">
-          <li class="icon icon-3d_effects"></li>
-          <li class="icon icon-connectivity"></li>
-          <li class="icon icon-device_access"></li>
-          <li class="icon icon-multimedia"></li>
-          <li class="icon icon-offline_storage"></li>
-          <li class="icon icon-performance"></li>
-          <li class="icon icon-semantics"></li>
-          <li class="icon icon-styling"></li>
+          <li class="icon icons-effects_3d"></li>
+          <li class="icon icons-connectivity"></li>
+          <li class="icon icons-device_access"></li>
+          <li class="icon icons-multimedia"></li>
+          <li class="icon icons-offline_storage"></li>
+          <li class="icon icons-performance"></li>
+          <li class="icon icons-semantics"></li>
+          <li class="icon icons-styling"></li>
         </ul>
       </section>
-
       <!-- icon font -->
       <section>
         <h2>Icon font</h2>
@@ -50,30 +43,11 @@
           </li>
         </ul>
       </section>
-
-      <!-- svg sprites -->
-      <!-- <section>
-        <h2>SVG sprites</h2>
-        <ul class="svg-list">
-          <li class="svg-3d_effects svg-3d_effects-dims"></li>
-          <li class="svg-connectivity svg-connectivity-dims"></li>
-          <li class="svg-device_access svg-device_access-dims"></li>
-          <li class="svg-multimedia svg-multimedia-dims"></li>
-          <li class="svg-offline_storage svg-offline_storage-dims"></li>
-          <li class="svg-perfintegration svg-perfintegration-dims"></li>
-          <li class="svg-semantics svg-semantics-dims"></li>
-          <li class="svg-css3_styling svg-css3_styling-dims"></li>
-        </ul>
-      </section> -->
     </div>
-
-    <!-- Your cdn -->
-    <!-- <script src="https://cdn.com/path/to/js/lib.js"></script> -->
-
     <!-- Your custom vendors -->
     <script src="%PUBLIC_URL%/scripts/vendor/mylib.js"></script>
     <script src="%PUBLIC_URL%/scripts/vendor/myutil.js"></script>
-
+    <!-- Your entry -->
     <script src="%PUBLIC_URL%/scripts/main.js"></script>
   </body>
 </html>

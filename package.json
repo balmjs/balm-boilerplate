@@ -1,11 +1,11 @@
 {
   "name": "balm-demo-boilerplate",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "The balm boilerplate",
   "scripts": {
     "preinstall": "bower install",
-    "dev": "gulp",
-    "prod": "gulp --production"
+    "dev": "balm",
+    "prod": "balm -p"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "balm": "^2.11.0",
-    "gulp": "^4.0.2"
+    "balm": "^3.0.0-beta.14"
   }
 }

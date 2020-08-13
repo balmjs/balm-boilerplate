@@ -1,6 +1,4 @@
-const balm = require('balm');
-
-balm.config = {
+const config = {
   styles: {
     extname: 'scss', // css,scss,less
     sprites: ['icons']
@@ -17,13 +15,16 @@ balm.config = {
   }
 };
 
-balm.go(mix => {
-  if (mix.env.isProd) {
-    // publish assets to your remote project
-    mix.publish();
-    mix.publish('index.html', 'public');
-  } else {
+const api = (mix) => {
+  if (mix.env.isDev) {
     mix.copy('bower_components/bootstrap/fonts/*', 'src/fonts');
     mix.copy('bower_components/font-awesome/fonts/*', 'src/fonts');
   }
-});
+};
+
+module.exports = () => {
+  return {
+    config,
+    api
+  };
+};

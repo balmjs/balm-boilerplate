@@ -1,20 +1,9 @@
 {
-  "name": "balm-demo-boilerplate",
-  "version": "3.0.0",
-  "description": "The balm boilerplate",
+  "private": true,
   "scripts": {
     "preinstall": "bower install",
     "dev": "balm",
     "prod": "balm -p"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/balmjs/balm-boilerplate.git"
-  },
-  "author": "Elf-mousE",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/balmjs/balm-boilerplate/issues"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

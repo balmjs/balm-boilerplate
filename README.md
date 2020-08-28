@@ -1,4 +1,4 @@
-# BalmJS demo - boilerplate
+# BalmJS demo - test
 
 ## Requirements
 
